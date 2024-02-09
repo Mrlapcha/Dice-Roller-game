@@ -11,3 +11,9 @@
 
 
 }
+body {
+  background-image: url('https://png.pngtree.com/background/20230618/original/pngtree-3d-dice-roll-in-action-picture-image_3758987.jpg');
+  background-size: cover; /* Ensure the background image covers the entire screen */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  /* You can also add more styling here if needed */
+}

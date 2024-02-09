@@ -2,7 +2,7 @@ import  { useState } from 'react';
 import './index.css';
 
 const App = () => {
-const [diceNumber, setDiceNumber]= useState(5)
+const [diceNumber, setDiceNumber]= useState(6)
 const refreshDice=()=> {
   const rannm= Math.floor(Math.random() *6) +1
   setDiceNumber(rannm)
